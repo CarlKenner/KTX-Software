@@ -207,10 +207,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\libktx.gyp"/>
-    <None Include="..\..\..\..\libktx.doxy">
-      <Filter>_excluded_files</Filter>
-    </None>
+    <None Include="..\..\..\..\libktx.gyp" />
     <None Include="..\..\..\..\runDoxygen">
       <Filter>_excluded_files</Filter>
     </None>
@@ -316,5 +313,8 @@
     <ClInclude Include="..\..\..\..\lib\vk_funcs.h">
       <Filter>lib\_excluded_files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\libktx.doxy" />
   </ItemGroup>
 </Project>

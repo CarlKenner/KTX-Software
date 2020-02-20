@@ -12,9 +12,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\libktx.gyp"/>
-    <None Include="..\..\..\..\other_lib\win\Release-$(PlatformName)\glew32.dll">
-      <Filter>other_lib\win\Release-$(PlatformName)</Filter>
-    </None>
+    <None Include="..\..\..\..\libktx.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\other_lib\win\Release-$(PlatformName)\glew32.dll" />
   </ItemGroup>
 </Project>
